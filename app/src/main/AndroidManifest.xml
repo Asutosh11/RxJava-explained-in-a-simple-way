@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asutosh.rxtrials">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity  android:name=".Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava"></activity>
+
+        <activity android:name=".Activity.BasicSyntax.TheSimplestSubscription"></activity>
+
+        <activity android:name=".Activity.BasicSyntax.EmitAndReceiveObjectsArray"></activity>
+
+        <activity android:name=".Activity.BasicSyntax.EmitAndReceiveObjectsList"></activity>
+
+        <activity android:name=".Activity.CommonOperators.FlatMap"></activity>
+
+        <activity android:name=".Activity.CommonOperators.ConcatMap"></activity>
+
+        <activity android:name=".Activity.CommonOperators.Filter"></activity>
+
+        <activity android:name=".Activity.CommonOperators.Map"></activity>
+
+        <activity android:name=".Activity.CommonOperators.RangeAndBuffer"></activity>
+
+        <activity android:name=".Activity.CommonOperators.CombineLatest"></activity>
+
+        <activity android:name=".Activity.CommonOperators.Concat"></activity>
+
+        <activity android:name=".Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity"></activity>
+
+        <activity android:name=".Activity.RealWorldUseCases.FunctionToObservable"></activity>
+
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

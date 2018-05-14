@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [com.android.support:design:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e8ac04bc5847a2372b1405dcceb88d83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e5ec44538b0478c1cdcecc479c320b30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/def607d6619756f8184e92bf0fee903c/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/be514a9523b92c9754813c5398e98744/AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.persistence.room:rxjava2:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.0.aar/c032a398ab0c570d911ba9c3d63ea94a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/99905c95f9c6686c21d34c1feb66d576/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d402c2647069ffb30075139c8cb6bdcf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/aea81f1ef9654a9f6cc85c98779aa23a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f77afd742409c771dc1ba422d4ca4e38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/00eac06bc004e131874c175cc005492d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0695e072a4630d279f5cf97083f88be1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/898ca1bda4c551a15921c80680338161/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6641ee25a07d43791932a4e27037bb2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3c8b39795584935aa1cd75db6de81fe4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/efd150be2c61ba38f4f5361c46798180/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/4e9e9a79e7acdd100955557f33bbf241/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/edfb862bc388b16d9b94f1d53a5d4dfe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/320ea83dabbafc8b971618ba39400529/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4053d373efbd464ef34a72ea8ecd86ec/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc26f1063239ffe77c8dec1474e63d21/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:7:5-48:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.asutosh.rxtrials.Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:15:9-107
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:15:20-95
+activity#com.asutosh.rxtrials.Activity.BasicSyntax.TheSimplestSubscription
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:17:9-91
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:17:19-79
+activity#com.asutosh.rxtrials.Activity.BasicSyntax.EmitAndReceiveObjectsArray
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:19:19-82
+activity#com.asutosh.rxtrials.Activity.BasicSyntax.EmitAndReceiveObjectsList
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:21:9-93
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:21:19-81
+activity#com.asutosh.rxtrials.Activity.CommonOperators.FlatMap
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:23:9-79
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:23:19-67
+activity#com.asutosh.rxtrials.Activity.CommonOperators.ConcatMap
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:25:9-81
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:25:19-69
+activity#com.asutosh.rxtrials.Activity.CommonOperators.Filter
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:27:9-78
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:27:19-66
+activity#com.asutosh.rxtrials.Activity.CommonOperators.Map
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:29:9-75
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:29:19-63
+activity#com.asutosh.rxtrials.Activity.CommonOperators.RangeAndBuffer
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:31:9-86
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:31:19-74
+activity#com.asutosh.rxtrials.Activity.CommonOperators.CombineLatest
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:33:9-85
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:33:19-73
+activity#com.asutosh.rxtrials.Activity.CommonOperators.Concat
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:35:9-78
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:35:19-66
+activity#com.asutosh.rxtrials.Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:37:9-108
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:37:19-96
+activity#com.asutosh.rxtrials.Activity.RealWorldUseCases.FunctionToObservable
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:39:9-94
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:39:19-82
+activity#com.asutosh.rxtrials.Activity.MainActivity
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:41:9-46:20
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:41:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:44:27-74
+uses-sdk
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e8ac04bc5847a2372b1405dcceb88d83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e8ac04bc5847a2372b1405dcceb88d83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e5ec44538b0478c1cdcecc479c320b30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e5ec44538b0478c1cdcecc479c320b30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/def607d6619756f8184e92bf0fee903c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/def607d6619756f8184e92bf0fee903c/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/be514a9523b92c9754813c5398e98744/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/be514a9523b92c9754813c5398e98744/AndroidManifest.xml:19:5-43
+MERGED from [android.arch.persistence.room:rxjava2:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.0.aar/c032a398ab0c570d911ba9c3d63ea94a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.0.aar/c032a398ab0c570d911ba9c3d63ea94a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/99905c95f9c6686c21d34c1feb66d576/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/99905c95f9c6686c21d34c1feb66d576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d402c2647069ffb30075139c8cb6bdcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d402c2647069ffb30075139c8cb6bdcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/aea81f1ef9654a9f6cc85c98779aa23a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/aea81f1ef9654a9f6cc85c98779aa23a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f77afd742409c771dc1ba422d4ca4e38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f77afd742409c771dc1ba422d4ca4e38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/00eac06bc004e131874c175cc005492d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/00eac06bc004e131874c175cc005492d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0695e072a4630d279f5cf97083f88be1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0695e072a4630d279f5cf97083f88be1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/898ca1bda4c551a15921c80680338161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/898ca1bda4c551a15921c80680338161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6641ee25a07d43791932a4e27037bb2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6641ee25a07d43791932a4e27037bb2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3c8b39795584935aa1cd75db6de81fe4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3c8b39795584935aa1cd75db6de81fe4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/efd150be2c61ba38f4f5361c46798180/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.0.aar/efd150be2c61ba38f4f5361c46798180/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/4e9e9a79e7acdd100955557f33bbf241/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/db-1.1.0.aar/4e9e9a79e7acdd100955557f33bbf241/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/edfb862bc388b16d9b94f1d53a5d4dfe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/edfb862bc388b16d9b94f1d53a5d4dfe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/320ea83dabbafc8b971618ba39400529/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/320ea83dabbafc8b971618ba39400529/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4053d373efbd464ef34a72ea8ecd86ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4053d373efbd464ef34a72ea8ecd86ec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc26f1063239ffe77c8dec1474e63d21/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc26f1063239ffe77c8dec1474e63d21/AndroidManifest.xml:20:5-44
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
