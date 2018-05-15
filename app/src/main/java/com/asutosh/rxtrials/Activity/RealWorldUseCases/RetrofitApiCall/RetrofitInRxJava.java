@@ -142,3 +142,11 @@ public class RetrofitInRxJava extends AppCompatActivity {
     }
 
 }
+
+/**
+ * Output:
+ *
+   RxOnNext: ok  20
+   D/RxComplete: DONE/Completed
+ *
+ */

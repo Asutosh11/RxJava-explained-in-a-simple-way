@@ -104,3 +104,10 @@ public class EmitAndReceiveObjectsArray extends AppCompatActivity {
         mDisposable.dispose();
     }
 }
+
+/**
+ * Output in Logcat:
+ *
+ * Asutosh
+ * Jim
+ */

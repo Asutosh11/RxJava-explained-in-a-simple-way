@@ -1,4 +1,4 @@
-package com.asutosh.rxtrials.Activity.RealWorldUseCases;
+package com.asutosh.rxtrials.Activity.RealWorldUseCases.ConvertFuncToObservable;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -88,7 +88,7 @@ public class FunctionToObservable extends AppCompatActivity {
 
     public String doSomething(){
 
-        return "return something tha takes some time to do the computation like image or video editing";
+        return "return something that takes some time to do the computation like image or video editing";
     }
 
 
@@ -101,3 +101,11 @@ public class FunctionToObservable extends AppCompatActivity {
 
 
 }
+
+/**
+ *
+ * Output:
+ *
+ * I/print_items: return something that takes some time to do the computation like image or video editing
+   I/print_items_complete: over
+ */

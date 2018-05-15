@@ -61,7 +61,7 @@ public class RangeAndBuffer extends AppCompatActivity {
         /**
          * This is the subscription that binds the Observer and the final Observable returned.
          */
-        observableBuffer.subscribeOn(Schedulers.io())          //Observable runs on new background thread.
+        observableBuffer.subscribeOn(Schedulers.io())         //Observable runs on a thread taken from thread pool.
                 .observeOn(AndroidSchedulers.mainThread())    //Observer will run on main UI thread.
                 .subscribe(observer);
 
@@ -69,7 +69,7 @@ public class RangeAndBuffer extends AppCompatActivity {
     }
 
     /**
-     * Output
+     * Output in Logcat
      * ------
      *
      * [1, 2, 3]

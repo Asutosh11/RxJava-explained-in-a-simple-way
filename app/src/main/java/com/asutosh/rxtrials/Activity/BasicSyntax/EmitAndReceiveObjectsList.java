@@ -104,3 +104,10 @@ public class EmitAndReceiveObjectsList extends AppCompatActivity {
         mDisposable.dispose();
     }
 }
+
+/**
+ * Output in Logcat:
+ *
+ * Asutosh
+ * Panda
+ */

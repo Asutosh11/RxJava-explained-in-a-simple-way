@@ -14,7 +14,11 @@
 
         <activity  android:name=".Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava"></activity>
 
-        <activity android:name=".Activity.BasicSyntax.TheSimplestSubscription"></activity>
+        <activity android:name=".Activity.BasicSyntax.TheSimplestSubscription">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
 
         <activity android:name=".Activity.BasicSyntax.EmitAndReceiveObjectsArray"></activity>
 
@@ -36,13 +40,10 @@
 
         <activity android:name=".Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity"></activity>
 
-        <activity android:name=".Activity.RealWorldUseCases.FunctionToObservable"></activity>
+        <activity android:name=".Activity.RealWorldUseCases.ConvertFuncToObservable.FunctionToObservable"></activity>
 
         <activity android:name=".Activity.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
     </application>

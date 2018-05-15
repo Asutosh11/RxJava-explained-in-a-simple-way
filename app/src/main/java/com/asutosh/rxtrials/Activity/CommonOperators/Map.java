@@ -24,6 +24,11 @@ public class Map extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        /**
+         * Here for every item in the Observable, we are adding some extra String.
+         * See the output below.
+         */
+
         ArrayList<String> list = new ArrayList<>();
         list.add("blue");
         list.add("red");
@@ -93,3 +98,16 @@ public class Map extends AppCompatActivity {
         mDisposable.dispose();
     }
 }
+
+/**
+ * Output in Logcat:
+ *
+ blue mapped String
+ red mapped String
+ pink mapped String
+ violet mapped String
+ green mapped String
+ black mapped String
+ white mapped String
+ *
+ */

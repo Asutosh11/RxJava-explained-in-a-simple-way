@@ -39,8 +39,8 @@ public class RoomSqliteActivity extends AppCompatActivity {
         //Saving some records
         for (int i=0;i<10;i++){
             StudentModel mStudentModel = new StudentModel();
-            mStudentModel.setmName("Name :"+i);
-            mStudentModel.setmStd("class :"+i);
+            mStudentModel.setmName("name "+i);
+            mStudentModel.setmStd("class "+i);
             modelArrayList.add(mStudentModel);
         }
 
@@ -69,10 +69,6 @@ public class RoomSqliteActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
         //getting flowable to subscribe consumer that will access the data from Room database.
         mStudentDatabase.getStudentDao().getStudents().subscribe(new Consumer<List<StudentModel>>() {
             @Override
@@ -82,9 +78,27 @@ public class RoomSqliteActivity extends AppCompatActivity {
         });
     }
     private void handleResponse(List<StudentModel> studentModels){
-        Log.e("student size :",studentModels.size()+"");
+        Log.i("student_size :",studentModels.size()+"");
         for (int i=0;i<studentModels.size();i++){
-            Log.e("student name :",studentModels.get(i).getmName());
+            Log.i("student_name :",studentModels.get(i).getmName());
         }
     }
 }
+
+/**
+ * Output:
+ *
+ * I/student_size :: 0
+   I/student_size :: 10
+   I/student_name :: name 0
+   name 1
+   name 2
+   name 3
+   name 4
+   name 5
+   name 6
+   name 7
+   name 8
+   name 9
+
+ */

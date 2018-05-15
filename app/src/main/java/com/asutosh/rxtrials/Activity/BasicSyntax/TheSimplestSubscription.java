@@ -92,3 +92,12 @@ public class TheSimplestSubscription extends AppCompatActivity {
         mDisposable.dispose();
     }
 }
+
+/**
+ * Output in Logcat:
+ *
+ * 1
+ * 2
+ * 3
+ * 4
+ */

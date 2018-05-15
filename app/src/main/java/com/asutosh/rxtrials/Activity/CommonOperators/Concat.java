@@ -16,46 +16,52 @@ public class Concat extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        /**
+         * Here we have 3 observables.
+         *
+         * We concat the data emitted by all the Observables into one stream.
+         * We emit that combined stream to the Observer. It emits all items one by one.
+         * Se the output.
+         */
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
         List<ObservableSource<String>> observableLst = new ArrayList<ObservableSource<String>>();
 
-        ObservableSource<String> observableOne = Observable.just("java", "spring", "hibernate", "android", "rxjava");
+        ObservableSource<String> observableOne = Observable.just("alphabet", "barcode", "chrome", "diagram", "edge");
         observableLst.add(observableOne);
 
-        ObservableSource<String> observableTwo = Observable.just("language", "di", "orm", "os", "ractive p");
+        ObservableSource<String> observableTwo = Observable.just("aa", "bb", "cc", "dd", "ee");
         observableLst.add(observableTwo);
 
         ObservableSource<String> observableThree = Observable.just("1", "2", "3", "4", "5");
         observableLst.add(observableThree);
 
-        //concat operator takes list of ObservableSource object and returns observable
-        //which emits all the items from all source observables
-        Observable<String> observableFin = Observable.concat(observableLst);
-
-        observableFin.subscribe(s -> Log.i("print_values", "values after concat operator "+s));
+        Observable<String> observableConcat = Observable.concat(observableLst);
+        observableConcat.subscribe(s -> Log.i("print_values", s));
 
 
         /**
-         * OUTPUT
+         * Output in Logcat
          * ------
-         *
-         values after concat operator java
-         values after concat operator spring
-         values after concat operator hibernate
-         values after concat operator android
-         values after concat operator rxjava
-         values after concat operator language
-         values after concat operator di
-         values after concat operator orm
-         values after concat operator os
-         values after concat operator ractive p
-         values after concat operator 1
-         values after concat operator 2
-         values after concat operator 3
-         values after concat operator 4
-         values after concat operator 5
+
+         alphabet
+         barcode
+         chrome
+         diagram
+         edge
+         aa
+         bb
+         cc
+         dd
+         ee
+         1
+         2
+         3
+         4
+         5
 
          */
     }

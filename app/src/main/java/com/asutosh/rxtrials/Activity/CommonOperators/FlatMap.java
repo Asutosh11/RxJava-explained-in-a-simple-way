@@ -44,7 +44,7 @@ public class FlatMap extends AppCompatActivity {
         /**
          * This is one Observable that is giving 'data - 1'
          */
-        Observable<String> observableOne = Observable.just("java", "spring", "hibernate", "android", "rxjava");
+        Observable<String> observableOne = Observable.just("alphabet", "barcode", "chrome", "diagram", "edge");
 
         /**
          * This second observable which takes each and every time given by the above first observable.
@@ -92,7 +92,7 @@ public class FlatMap extends AppCompatActivity {
         /**
          * This is the subscription that binds the Observer and the final Observable returned.
          */
-        observableTwo.subscribeOn(Schedulers.io())          //Observable runs on new background thread.
+        observableTwo.subscribeOn(Schedulers.io())          //Observable runs on a thread taken from thread pool.
                 .observeOn(AndroidSchedulers.mainThread())    //Observer will run on main UI thread.
                 .subscribe(observer);
 
@@ -108,3 +108,32 @@ public class FlatMap extends AppCompatActivity {
     }
 
 }
+
+/**
+ * Output in Logcat:
+ *
+ alphabet after thru flatMap
+ barcode after thru flatMap
+ chrome after thru flatMap
+ diagram after thru flatMap
+ edge after thru flatMap
+
+ */
+
+
+/**
+ * PLEASE NOTE THAT THERE IS A SMALL DIFFERENCE BETWEEN 'FLATMAP' AND 'CONCATMAP'
+ * ------------------------------------------------------------------------------
+ *
+ * Lets suppose we are doing the processing in multiple threads.
+ *
+ * ITEM 1 in thread 1.
+ * ITEM 2 in thread 2.
+ * ITEM 3 in thread 3.
+ *
+ * FlatMap will return the ITEM that has finished processing, doesn't matter if items prior to it
+ * in the queue have finished processing or not.
+ *
+ * ConcatMap will wait for ITEM 1 to be finished first, doesn't matter if other have finished processing or not.
+ * ConcatMap will emit items sequencially.
+ */

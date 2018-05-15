@@ -22,6 +22,13 @@ public class Filter extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        /**
+         * Here for all the items emmitted by the Observable, we do a filter operation.
+         *
+         * If the item has got 'e' on it, then emit it to the Observer otherwise not.
+         */
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
@@ -94,3 +101,14 @@ public class Filter extends AppCompatActivity {
     }
 
 }
+
+/**
+ * Output in Logcat
+ *
+ blue
+ red
+ violet
+ green
+ white
+
+ */

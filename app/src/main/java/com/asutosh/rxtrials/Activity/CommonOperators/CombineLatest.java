@@ -14,17 +14,26 @@ public class CombineLatest extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        /**
+         * Here we have 3 Observables.
+         *
+         * For every item in 'observableThree' we are adding the last item of 'observableOne' & 'observableTwo'
+         * We emit that combined stream to the Observer. It emits all items one by one.
+         * Se the output.
+         */
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
 
-        ObservableSource<String> observableOne = Observable.just("java", "spring", "hibernate", "android", "rxjava");
+        ObservableSource<String> observableOne = Observable.just("alphabet", "barcode", "chrome", "diagram", "edge");
 
-        ObservableSource<String> observableTwo = Observable.just("language", "di", "orm", "os", "ractive p");
+        ObservableSource<String> observableTwo = Observable.just("antilope", "bull", "cat", "dog", "elephant");
 
         ObservableSource<String> observableThree = Observable.just("1", "2", "3", "4", "5");
 
-        Observable<String> observableFin = Observable.combineLatest(new Function<Object[], String>(){
+        Observable<String> observableCombine = Observable.combineLatest(new Function<Object[], String>(){
                                                                         @Override
                                                                         public String apply(Object[] t) throws Exception {
                                                                             String finObj = "";
@@ -36,8 +45,19 @@ public class CombineLatest extends AppCompatActivity {
                 1,
                 observableOne, observableTwo, observableThree);
 
-        observableFin.subscribe(s -> Log.i("print_values", "values after combineLatest operator "+s));
+        observableCombine.subscribe(s -> Log.i("print_values", s));
 
 
     }
 }
+
+/**
+ * Output in Logcat:
+ *
+ edge elephant 1
+ edge elephant 2
+ edge elephant 3
+ edge elephant 4
+ edge elephant 5
+
+ */
