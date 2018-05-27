@@ -1,7 +1,5 @@
 # RxJava explained in the simplest way
 
-I had made this tutorial project to teach people about Reactive programming. Now I'm making these notes available on Github so that everyone can use it. 
-
 For a moment, forget RxJava.
 Just answer some questions. <br/>
 
