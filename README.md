@@ -66,7 +66,7 @@ As I have told you do RxJava operations in separate blocks. Every RxJava block i
 
 <br>
     
-<b>Real life scenario</b>
+<b>Real life code scenario</b>
 
 For an SQLite operation, Observable is the part that queries the DB and fetches the data. It is a heavy work. It runs on a background thread.
 
