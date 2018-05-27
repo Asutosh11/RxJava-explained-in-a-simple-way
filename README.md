@@ -10,7 +10,7 @@ Just answer some questions. <br/>
 2. If you want to read names of 1000 users from Sqlite DB and also need to read fetch profile images of the same 1000 users from server. Then you need to map every user name with the correct profile image and show it on the UI. How would you do it ?
 
 
-3. You have made a chat App. User A sends a message to User B. There is no internet in User A’s phone. You want to write a retry policy for sending the message. If no internet, try again after 2 seconds - > if still no internet, try again after 5 seconds -> still no internet, try again after 10 seconds … and the time increases on every try. HO would you do it ?
+3. You have made a chat App. User A sends a message to User B. There is no internet in User A’s phone. You want to write a retry policy for sending the message. If no internet, try again after 2 seconds - > if still no internet, try again after 5 seconds -> still no internet, try again after 10 seconds … and the time increases on every try. How would you do it ?
 
 
 4. Let’s suppose you have 5 classes doing different things and in total you have 15 callbacks. How can you make the code more readable and maintainable ?
