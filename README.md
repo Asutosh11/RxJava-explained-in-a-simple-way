@@ -1,6 +1,6 @@
-# The-simplest-RxJava-tutorial
+# RxJava explained in the simplest way
 
-<b>This is RxJava explained in the simplest way.</b> I had made this tutorial project to teach people about Reactive programming. Now I'm making these notes available on Github so that everyone can use it. 
+I had made this tutorial project to teach people about Reactive programming. Now I'm making these notes available on Github so that everyone can use it. 
 
 For a moment, forget RxJava.
 Just answer some questions. <br/>
