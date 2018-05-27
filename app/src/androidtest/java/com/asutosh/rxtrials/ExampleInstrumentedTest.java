@@ -1,4 +1,4 @@
-package com.asutosh.rxtrials;
+package com.asutosh.rxtuts;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/home/asu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e8ac04bc5847a2372b1405dcceb88d83/res/values-en-rGB/values-en-rGB.xml",

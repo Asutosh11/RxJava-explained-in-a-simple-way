@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,3,2,4",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "16,110,66,164",
-                        "endColumns": "49,53,43,61",
-                        "endOffsets": "61,159,105,221"
-                    },
-                    "to": {
-                        "startLines": "774,785,786,787",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "64357,65699,65753,65797",
-                        "endColumns": "49,53,43,61",
-                        "endOffsets": "64402,65748,65792,65854"
-                    }
-                },
                 {
                     "source": "/home/asu/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/00eac06bc004e131874c175cc005492d/res/values/values.xml",
                     "from": {
@@ -114,7 +97,26 @@
                     }
                 },
                 {
-                    "source": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/res/values/colors.xml",
+                    "source": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "368"
+                    },
+                    "to": {
+                        "startLines": "797",
+                        "startColumns": "4",
+                        "startOffsets": "66588",
+                        "endLines": "802",
+                        "endColumns": "12",
+                        "endOffsets": "66902"
+                    }
+                },
+                {
+                    "source": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/res/values/colors.xml",
                     "from": {
                         "startLines": "4,2,3,7,5,6",
                         "startColumns": "4,4,4,4,4,4",
@@ -148,22 +150,20 @@
                     }
                 },
                 {
-                    "source": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/res/values/styles.xml",
+                    "source": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "368"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
                     },
                     "to": {
-                        "startLines": "797",
-                        "startColumns": "4",
-                        "startOffsets": "66588",
-                        "endLines": "802",
-                        "endColumns": "12",
-                        "endOffsets": "66902"
+                        "startLines": "621,622",
+                        "startColumns": "4,4",
+                        "startOffsets": "54695,54753",
+                        "endColumns": "57,55",
+                        "endOffsets": "54748,54804"
                     }
                 },
                 {
@@ -203,20 +203,20 @@
                     }
                 },
                 {
-                    "source": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/res/values/dimens.xml",
+                    "source": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,146",
-                        "endColumns": "57,55",
-                        "endOffsets": "141,197"
+                        "startLines": "1,3,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "16,110,66,164",
+                        "endColumns": "49,53,43,61",
+                        "endOffsets": "61,159,105,221"
                     },
                     "to": {
-                        "startLines": "621,622",
-                        "startColumns": "4,4",
-                        "startOffsets": "54695,54753",
-                        "endColumns": "57,55",
-                        "endOffsets": "54748,54804"
+                        "startLines": "774,785,786,787",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "64357,65699,65753,65797",
+                        "endColumns": "49,53,43,61",
+                        "endOffsets": "64402,65748,65792,65854"
                     }
                 }
             ]

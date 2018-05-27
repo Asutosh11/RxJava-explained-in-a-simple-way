@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
 MERGED from [com.android.support:design:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e8ac04bc5847a2372b1405dcceb88d83/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:2:1-11:12
@@ -26,113 +26,113 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/asu/.gradle/cache
 MERGED from [android.arch.core:runtime:1.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/320ea83dabbafc8b971618ba39400529/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4053d373efbd464ef34a72ea8ecd86ec/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc26f1063239ffe77c8dec1474e63d21/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:3:5-35
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:1-50:12
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:7:5-48:19
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:7:5-49:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/asu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9b08675b1cc6784657af34c8911bc079/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:13:9-40
-activity#com.asutosh.rxtrials.Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:15:9-107
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.asutosh.rxtuts.Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:15:9-107
 	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:15:20-95
-activity#com.asutosh.rxtrials.Activity.BasicSyntax.TheSimplestSubscription
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:17:9-91
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:15:20-95
+activity#com.asutosh.rxtuts.Activity.BasicSyntax.TheSimplestSubscription
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:17:9-21:36
 	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:17:19-79
-activity#com.asutosh.rxtrials.Activity.BasicSyntax.EmitAndReceiveObjectsArray
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:19:9-94
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:19:19-82
-activity#com.asutosh.rxtrials.Activity.BasicSyntax.EmitAndReceiveObjectsList
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:21:9-93
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:21:19-81
-activity#com.asutosh.rxtrials.Activity.CommonOperators.FlatMap
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:23:9-79
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:23:19-67
-activity#com.asutosh.rxtrials.Activity.CommonOperators.ConcatMap
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:25:9-81
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:25:19-69
-activity#com.asutosh.rxtrials.Activity.CommonOperators.Filter
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:27:9-78
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:27:19-66
-activity#com.asutosh.rxtrials.Activity.CommonOperators.Map
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:29:9-75
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:29:19-63
-activity#com.asutosh.rxtrials.Activity.CommonOperators.RangeAndBuffer
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:31:9-86
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:31:19-74
-activity#com.asutosh.rxtrials.Activity.CommonOperators.CombineLatest
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:33:9-85
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:33:19-73
-activity#com.asutosh.rxtrials.Activity.CommonOperators.Concat
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:35:9-78
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:35:19-66
-activity#com.asutosh.rxtrials.Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:37:9-108
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:37:19-96
-activity#com.asutosh.rxtrials.Activity.RealWorldUseCases.FunctionToObservable
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:39:9-94
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:39:19-82
-activity#com.asutosh.rxtrials.Activity.MainActivity
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:41:9-46:20
-	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:41:19-56
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:17:19-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:42:13-45:29
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:18:13-21:25
 action#android.intent.action.MAIN
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:43:17-69
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:43:25-66
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:44:17-77
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml:44:27-74
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.asutosh.rxtuts.Activity.BasicSyntax.EmitAndReceiveObjectsArray
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:23:9-94
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:23:19-82
+activity#com.asutosh.rxtuts.Activity.BasicSyntax.EmitAndReceiveObjectsList
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:25:9-93
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:25:19-81
+activity#com.asutosh.rxtuts.Activity.CommonOperators.FlatMap
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:27:9-79
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:27:19-67
+activity#com.asutosh.rxtuts.Activity.CommonOperators.ConcatMap
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:29:9-81
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:29:19-69
+activity#com.asutosh.rxtuts.Activity.CommonOperators.Filter
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:31:9-78
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:31:19-66
+activity#com.asutosh.rxtuts.Activity.CommonOperators.Map
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:33:9-75
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:33:19-63
+activity#com.asutosh.rxtuts.Activity.CommonOperators.RangeAndBuffer
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:35:9-86
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:35:19-74
+activity#com.asutosh.rxtuts.Activity.CommonOperators.CombineLatest
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:37:9-85
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:37:19-73
+activity#com.asutosh.rxtuts.Activity.CommonOperators.Concat
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:39:9-78
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:39:19-66
+activity#com.asutosh.rxtuts.Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:41:9-108
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:41:19-96
+activity#com.asutosh.rxtuts.Activity.RealWorldUseCases.ConvertFuncToObservable.FunctionToObservable
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:43:9-118
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:43:19-106
+activity#com.asutosh.rxtuts.Activity.MainActivity
+ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:45:9-47:20
+	android:name
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml:45:19-56
 uses-sdk
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/asu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e8ac04bc5847a2372b1405dcceb88d83/AndroidManifest.xml:20:5-44
@@ -177,13 +177,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/asu/.gradle/caches/tran
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4053d373efbd464ef34a72ea8ecd86ec/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc26f1063239ffe77c8dec1474e63d21/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/asu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc26f1063239ffe77c8dec1474e63d21/AndroidManifest.xml:20:5-44
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		ADDED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
-		INJECTED from /home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		ADDED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml
+		INJECTED from /home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/src/main/AndroidManifest.xml

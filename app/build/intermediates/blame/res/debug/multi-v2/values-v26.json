@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/asu/Documents/AndroidProjects/RXJava-Asutosh/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/home/asu/Documents/AndroidProjects/RxJava-explained-in-a-simple-way/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
                     "source": "/home/asu/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83d263605944db691e78b81ce6008b84/res/values-v26/values-v26.xml",

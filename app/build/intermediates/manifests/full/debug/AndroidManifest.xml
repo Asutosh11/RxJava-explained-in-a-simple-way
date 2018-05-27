@@ -19,25 +19,26 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.asutosh.rxtrials.Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava" />
-        <activity android:name="com.asutosh.rxtrials.Activity.BasicSyntax.TheSimplestSubscription" />
-        <activity android:name="com.asutosh.rxtrials.Activity.BasicSyntax.EmitAndReceiveObjectsArray" />
-        <activity android:name="com.asutosh.rxtrials.Activity.BasicSyntax.EmitAndReceiveObjectsList" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.FlatMap" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.ConcatMap" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.Filter" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.Map" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.RangeAndBuffer" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.CombineLatest" />
-        <activity android:name="com.asutosh.rxtrials.Activity.CommonOperators.Concat" />
-        <activity android:name="com.asutosh.rxtrials.Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity" />
-        <activity android:name="com.asutosh.rxtrials.Activity.RealWorldUseCases.FunctionToObservable" />
-        <activity android:name="com.asutosh.rxtrials.Activity.MainActivity" >
+        <activity android:name="com.asutosh.rxtuts.Activity.RealWorldUseCases.RetrofitApiCall.RetrofitInRxJava" />
+        <activity android:name="com.asutosh.rxtuts.Activity.BasicSyntax.TheSimplestSubscription" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.asutosh.rxtuts.Activity.BasicSyntax.EmitAndReceiveObjectsArray" />
+        <activity android:name="com.asutosh.rxtuts.Activity.BasicSyntax.EmitAndReceiveObjectsList" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.FlatMap" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.ConcatMap" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.Filter" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.Map" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.RangeAndBuffer" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.CombineLatest" />
+        <activity android:name="com.asutosh.rxtuts.Activity.CommonOperators.Concat" />
+        <activity android:name="com.asutosh.rxtuts.Activity.RealWorldUseCases.SQLiteUsingRoom.RoomSqliteActivity" />
+        <activity android:name="com.asutosh.rxtuts.Activity.RealWorldUseCases.ConvertFuncToObservable.FunctionToObservable" />
+        <activity android:name="com.asutosh.rxtuts.Activity.MainActivity" >
         </activity>
     </application>
 
