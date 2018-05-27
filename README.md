@@ -16,10 +16,10 @@ Just answer some questions. <br/>
 4. Let’s suppose you have 5 classes doing different things and in total you have 15 callbacks. How can you make the code more readable and maintainable ?
 
 
-5. You get two list of same size, list 1 and list 2. See this situation. Fire API 1 -> Get list 1, Fire API 2 - > Get list 2.  For every item in list 1 or list 2,  Fire API 3 with parameters object of list 1 and object of list 2. How can you achieve that ?
+5. You get two list of same size, list 1 and list 2. See this situation. Fire API 1 -> Get list 1, Fire API 2 - > Get list 2.  For every item in list 1 or list 2,  Fire API 3 with parameters consisting of data from list 1 and data from list 2. How can you achieve that ?
 
 
-6. Let’s suppose you have a home screen (MainActivity). On the MainActivity, you have 3 RecyclerView (RecyclerView1, RecyclerView2, RecyclerView3) placed in a vertical order one after the other in a LinearLayout - 
+6. Let’s suppose you have a home screen (MainActivity). On the MainActivity, you have 3 RecyclerView (RecyclerView1, RecyclerView2, RecyclerView3) placed in a vertical order one after the other in a LinearLayout. 
 
    RecyclerView1, gets updated after getting the data from SQLite database.
    RecyclerView2 and RecyclerView3 get updated after getting data from an API call.
