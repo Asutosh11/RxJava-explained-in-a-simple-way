@@ -23,10 +23,10 @@ Just answer some questions. <br/>
 
 6. Let’s suppose you have a home screen (MainActivity). On the MainActivity, you have 3 RecyclerView (RecyclerView 1, RecyclerView 2, RecyclerView 3) placed in a vertical order one after the other in a LinearLayout - 
 
-RecyclerView 1, gets updated after getting the data from SQLite database.
-RecyclerView 2 and RecyclerView 3 get updated after getting data from an API call.
+   RecyclerView 1, gets updated after getting the data from SQLite database.
+   RecyclerView 2 and RecyclerView 3 get updated after getting data from an API call.
 
-In Synchronous programming, how would you do it ? If you have a plan to execute it in the traditional way line by line, there is one problem that you might face. That is, RecyclerView 2 will not be updated until the updation of RecyclerView 1 is over. If RecyclerView 1 is taking a lot of time to get updated, you see no data for RecyclerView 2 and RecyclerView 3.
+   In Synchronous programming, how would you do it ? If you have a plan to execute it in the traditional way line by line,     there is one problem that you might face. That is, RecyclerView 2 will not be updated until the updation of RecyclerView 1 is  over. If RecyclerView 1 is taking a lot of time to get updated, you see no data for RecyclerView 2 and RecyclerView 3.
 
 
 Will it look good ?
@@ -71,10 +71,14 @@ As I have told you do RxJava operations in separate blocks. Every RxJava block i
 <b>Real life scenario</b>
 
 For an SQLite operation, Observable is the part that queries the DB and fetches the data. It is a heavy work. It runs on a background thread.
-Observer is the part that gets the data from the Observable and updates the UI. The Observer here ha to handle UI changes, so it runs in the main UI thread.
-Observable after doing any work will not give the data to anyone until a Observer attaches to it. So, Subscription here connects the Observable and the Observer. There can be multiple Observers subscribed to a single Observable.
-Keep in mind that, you have to Unsubscribe the Observer after the work is over, otherwise you might get memory leaks. 
 
+Observer is the part that gets the data from the Observable and updates the UI. The Observer here ha to handle UI changes, so it runs in the main UI thread.
+
+Observable after doing any work will not give the data to anyone until a Observer attaches to it. So, Subscription here connects the Observable and the Observer. There can be multiple Observers subscribed to a single Observable.
+
+<strong>Keep in mind that, you have to Unsubscribe the Observer after the work is over, otherwise you might get memory leaks. 
+</strong>
 <br>
+
 
 Enough has been said in theory. <b>Let’s see code.</b> <em>Just import the project in this repository on Android studio. Every Activity has got lots of comments which are self explanatory. Just go through the source code, you will understand. </em>
