@@ -1,4 +1,4 @@
-# RxJava explained in the simplest way
+# RxJava explained in a simple way
 
 For a moment, forget RxJava.
 Just answer some questions. <br/>
