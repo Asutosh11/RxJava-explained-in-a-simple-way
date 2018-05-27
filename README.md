@@ -21,15 +21,15 @@ Just answer some questions. <br/>
 5. You get two list of same size, list 1 and list 2. See this situation. Fire API 1 -> Get list 1, Fire API 2 - > Get list 2.  For every item in list 1 or list 2,  Fire API 3 with parameters object of list 1 and object of list 2. How can you achieve that ?
 
 
-6. Let’s suppose you have a home screen (MainActivity). On the MainActivity, you have 3 RecyclerView (RecyclerView 1, RecyclerView 2, RecyclerView 3) placed in a vertical order one after the other in a LinearLayout - 
+6. Let’s suppose you have a home screen (MainActivity). On the MainActivity, you have 3 RecyclerView (RecyclerView1, RecyclerView2, RecyclerView3) placed in a vertical order one after the other in a LinearLayout - 
 
-   RecyclerView 1, gets updated after getting the data from SQLite database.
-   RecyclerView 2 and RecyclerView 3 get updated after getting data from an API call.
+   RecyclerView1, gets updated after getting the data from SQLite database.
+   RecyclerView2 and RecyclerView3 get updated after getting data from an API call.
 
-   In Synchronous programming, how would you do it ? If you have a plan to execute it in the traditional way line by line,     there is one problem that you might face. That is, RecyclerView 2 will not be updated until the updation of RecyclerView 1 is  over. If RecyclerView 1 is taking a lot of time to get updated, you see no data for RecyclerView 2 and RecyclerView 3.
+   In Synchronous programming, how would you do it ? If you have a plan to execute it in the traditional way line by line,     there is one problem that you might face. That is, RecyclerView2 will not be updated until the updation of RecyclerView1 is  over. If RecyclerView1 is taking a lot of time to get updated, you see no data for RecyclerView2 and RecyclerView3.
 
 
-Will it look good ?
+   Will it look good ?
 
 
 
