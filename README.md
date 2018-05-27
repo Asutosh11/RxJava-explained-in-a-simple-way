@@ -1,5 +1,7 @@
 # RxJava explained in a simple way
 
+I had taken a session on RxJava some time back. These are the notes I had prepared for it. Read this if you are a starter in Reactive Programming or RxJava. 
+
 For a moment, forget RxJava.
 Just answer some questions. <br/>
 
