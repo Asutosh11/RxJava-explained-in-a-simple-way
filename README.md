@@ -35,7 +35,7 @@ For all these above tasks there is a better structure which if adopted will solv
 
 <br>
 
-<b>What is RxJava ??</b>
+<strong>What is RxJava ??</strong>
 
 Some people created something called as Reactive Programming or simply say ReactiveX. This is the website of ReactiveX - http://reactivex.io/ .. 
 
@@ -66,7 +66,7 @@ As I have told you do RxJava operations in separate blocks. Every RxJava block i
 
 <br>
     
-<b>Real life code scenario</b>
+<strong>Real life code scenario</strong>
 
 For an SQLite operation, Observable is the part that queries the DB and fetches the data. It is a heavy work. It runs on a background thread.
 
