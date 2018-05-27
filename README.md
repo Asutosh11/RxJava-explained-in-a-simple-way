@@ -1,6 +1,6 @@
 # The-simplest-RxJava-tutorial
 
-This is RxJava explained in the simplest term. I had made this tutorial project to teach people about Reactive programming. Now I'm making these notes available on Github so that everyone can use it. 
+<b>This is RxJava explained in the simplest term.</b> I had made this tutorial project to teach people about Reactive programming. Now I'm making these notes available on Github so that everyone can use it. 
 
 For a moment, forget RxJava.
 Just answer some questions. <br/>
@@ -76,9 +76,9 @@ Observer is the part that gets the data from the Observable and updates the UI. 
 
 Observable after doing any work will not give the data to anyone until a Observer attaches to it. So, Subscription here connects the Observable and the Observer. There can be multiple Observers subscribed to a single Observable.
 
-<strong>Keep in mind that, you have to Unsubscribe the Observer after the work is over, otherwise you might get memory leaks. 
-</strong>
-<br>
+<b>Keep in mind that, you have to Unsubscribe the Observer after the work is over, otherwise you might get memory leaks. 
+</b>
+<br/><br/>
 
 
 Enough has been said in theory. <b>Let’s see code.</b> <em>Just import the project in this repository on Android studio. Every Activity has got lots of comments which are self explanatory. Just go through the source code, you will understand. </em>
