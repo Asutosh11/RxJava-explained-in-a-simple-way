@@ -43,7 +43,7 @@ For all these above tasks there is a better structure which if adopted will solv
 Some people created something called as Reactive Programming or simply say ReactiveX. This is the website of ReactiveX - http://reactivex.io/ .. 
 
 As per its definition, ReactiveX is a library for making asynchronous and event-based programs by using observable sequences. 
-That means, you divide tasks into blocks consisting of Observable and Observer. Every block does a particular task in an asynchronous was and is not dependant on any other block.
+That means, you divide tasks into blocks consisting of Observable and Observer. Every block does a particular task in an asynchronous way and is not dependant on any other block.
 
 RxJava is just the Java implementation of Reactive programming.
 
